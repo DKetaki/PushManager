@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED41A59F2088997500B25972 /* AppDelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41A59E2088997500B25972 /* AppDelegateExtension.swift */; };
-		ED41A5A120889E0600B25972 /* PushNotificationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41A5A020889E0600B25972 /* PushNotificationManagerDelegate.swift */; };
 		ED444ECE20870C56003FA396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED444ECD20870C56003FA396 /* AppDelegate.swift */; };
 		ED444ED020870C56003FA396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED444ECF20870C56003FA396 /* ViewController.swift */; };
 		ED444ED320870C56003FA396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED444ED120870C56003FA396 /* Main.storyboard */; };
@@ -18,7 +16,6 @@
 		ED444EEE20870C58003FA396 /* SamplePushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED444EED20870C58003FA396 /* SamplePushUITests.swift */; };
 		ED444F022087157A003FA396 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED444F012087157A003FA396 /* PushNotificationManager.swift */; };
 		ED444F0520871759003FA396 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED444F0420871759003FA396 /* UserNotifications.framework */; };
-		ED8AEB9220B6E356004DB455 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AEB9120B6E356004DB455 /* Base.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +37,6 @@
 
 /* Begin PBXFileReference section */
 		ED001EB62087668400355EFC /* SamplePush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SamplePush.entitlements; sourceTree = "<group>"; };
-		ED41A59E2088997500B25972 /* AppDelegateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateExtension.swift; sourceTree = "<group>"; };
-		ED41A5A020889E0600B25972 /* PushNotificationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManagerDelegate.swift; sourceTree = "<group>"; };
 		ED444ECA20870C56003FA396 /* SamplePush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED444ECD20870C56003FA396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED444ECF20870C56003FA396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +52,6 @@
 		ED444EEF20870C58003FA396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED444F012087157A003FA396 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
 		ED444F0420871759003FA396 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		ED8AEB9120B6E356004DB455 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,9 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				ED444F012087157A003FA396 /* PushNotificationManager.swift */,
-				ED41A59E2088997500B25972 /* AppDelegateExtension.swift */,
-				ED41A5A020889E0600B25972 /* PushNotificationManagerDelegate.swift */,
-				ED8AEB9120B6E356004DB455 /* Base.swift */,
 			);
 			path = PushNotificationManager;
 			sourceTree = "<group>";
@@ -311,11 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED8AEB9220B6E356004DB455 /* Base.swift in Sources */,
-				ED41A5A120889E0600B25972 /* PushNotificationManagerDelegate.swift in Sources */,
 				ED444ED020870C56003FA396 /* ViewController.swift in Sources */,
 				ED444ECE20870C56003FA396 /* AppDelegate.swift in Sources */,
-				ED41A59F2088997500B25972 /* AppDelegateExtension.swift in Sources */,
 				ED444F022087157A003FA396 /* PushNotificationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
