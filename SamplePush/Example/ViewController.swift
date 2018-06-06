@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     func getNotification() {
         if manager.isGranted{
                 manager.subscribe { (data) in
-                    print("Notification Data - \(data)")
+                    print("View Controller Notification Data - \(data)")
                 }
         }
     }
